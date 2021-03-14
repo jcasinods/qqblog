@@ -10,6 +10,10 @@ links:
     url: "https://github.com/jcasinods"
   - label: Email
     url: "mailto:jcasino.ds@gmail.com"
+  - label: CV - Online Version
+    url: "https://github.com/jcasinods/qqblog/cv/cv_joaquincasinoduran.html"
+  - label: CV - PDF
+    url: "https://github.com/jcasinods/qqblog/cv/cv_joaquincasinoduran.html"  
 output:
   postcards::jolla
 ---
