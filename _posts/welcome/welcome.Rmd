@@ -1,0 +1,23 @@
+---
+title: "Welcome to My Blog"
+description: |
+  Welcome to my new blog, The qqBlog. We hope you enjoy 
+  reading about Data Science, Machine Learning and DataViz.!
+author:
+  - name: Joaquin Casino Duran
+date: 03-14-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+
+

@@ -1,0 +1,19 @@
+---
+title: "Joaquin Casino"
+image: "images/profile_pic_small.jpeg"
+links:
+  - label: LinkedIn
+    url: "https://es.linkedin.com/in/joaquin-casino-duran"
+  - label: Twitter
+    url: "https://twitter.com/jcasinods"
+  - label: GitHub
+    url: "https://github.com/jcasinods"
+  - label: Email
+    url: "mailto:jcasino.ds@gmail.com"
+output:
+  postcards::jolla
+---
+ 
+I am a classically trained data scientist living in the San Francisco Bay Area. 
+Currently I work on the Oculus team at Facebook. I love talking about baseball, 
+true crime podcasts, and causal inference.
