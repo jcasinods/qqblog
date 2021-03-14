@@ -1,0 +1,19 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "Joaquin Casino",
+      "author": [],
+      "contents": "\r\n\r\n          \r\n          \r\n          \r\n          \r\n          The qqblog\r\n          \r\n          \r\n          Home\r\n          About\r\n          \r\n          \r\n          \r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            Joaquin Casino\r\n          \r\n          \r\n            \r\n              I am a classically trained data scientist living in the San Francisco Bay Area. Currently I work on the Oculus team at Facebook. I love talking about baseball, true crime podcasts, and causal inference.\r\n            \r\n            \r\n              I am a classically trained data scientist living in the San Francisco Bay Area. Currently I work on the Oculus team at Facebook. I love talking about baseball, true crime podcasts, and causal inference.\r\n            \r\n          \r\n\r\n          \r\n            \r\n              \r\n                  \r\n                    \r\n                      LinkedIn\r\n                    \r\n                  \r\n                \r\n                                \r\n                  \r\n                    \r\n                      Twitter\r\n                    \r\n                  \r\n                \r\n                                \r\n                  \r\n                    \r\n                      GitHub\r\n                    \r\n                  \r\n                \r\n                                \r\n                  \r\n                    \r\n                      Email\r\n                    \r\n                  \r\n                \r\n                              \r\n          \r\n\r\n          \r\n            \r\n              \r\n                                \r\n                  \r\n                    LinkedIn\r\n                  \r\n                \r\n                                \r\n                  \r\n                    Twitter\r\n                  \r\n                \r\n                                \r\n                  \r\n                    GitHub\r\n                  \r\n                \r\n                                \r\n                  \r\n                    Email\r\n                  \r\n                \r\n                              \r\n            \r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    \r\n          © Copyright 2018 [The Distill Template Authors] (https://github.com/distillpub/template/blob/master/AUTHORS) and RStudio, Inc.\r\n          Software licensed under the [Apache License, v2.0] (https://www.apache.org/licenses/LICENSE-2.0).\r\n          \r\n          \r\n\r\n    \r\n  ",
+      "last_modified": "2021-03-14T20:16:21+01:00"
+    },
+    {
+      "path": "index.html",
+      "title": "My Blog",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-03-14T20:16:22+01:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}
