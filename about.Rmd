@@ -18,6 +18,6 @@ output:
   postcards::jolla
 ---
  
-I am a classically trained data scientist living in the San Francisco Bay Area. 
-Currently I work on the Oculus team at Facebook. I love talking about baseball, 
-true crime podcasts, and causal inference.
+I am data scientist living in Barcelona with interests in Statistics, Analytics,
+DataViz and Machine Learning. Currently I work at Netquest as Data Science Team Lead. 
+I love programming, playing guitar and listening to rock!
