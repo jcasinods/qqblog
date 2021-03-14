@@ -11,9 +11,9 @@ links:
   - label: Email
     url: "mailto:jcasino.ds@gmail.com"
   - label: CV - Online Version
-    url: "https://github.com/jcasinods/qqblog/cv/cv_joaquincasinoduran.html"
+    url: "https://github.com/jcasinods/qqblog/blob/main/cv/cv_joaquincasinoduran.html"
   - label: CV - PDF
-    url: "https://github.com/jcasinods/qqblog/cv/cv_joaquincasinoduran.html"  
+    url: "https://github.com/jcasinods/qqblog/blob/main/cv/cv_joaquincasinoduran.pdf"  
 output:
   postcards::jolla
 ---
