@@ -1,0 +1,7 @@
+---
+title: "Gallery of featured posts"
+listing:
+  posts:
+    - 2021-03-14-test-2
+    - 2021-03-14-test-1
+---

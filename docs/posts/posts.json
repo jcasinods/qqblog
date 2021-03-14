@@ -1,19 +1,62 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to My Blog",
-    "description": "Welcome to our new blog, My Blog. We hope you enjoy \nreading what we have to say!",
+    "path": "posts/2021-03-14-test-1/",
+    "title": "Test 1",
+    "description": "A short description of the post.",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Joaquin Casino",
+        "url": "https://github.com/jcasinods"
       }
     ],
     "date": "2021-03-14",
-    "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
+    "categories": [
+      "portfolios",
+      "dygraphs"
+    ],
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-03-14T19:29:22+01:00",
+    "last_modified": "2021-03-14T21:49:50+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2021-03-14-test-2/",
+    "title": "Test 2",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Joaquin Casino",
+        "url": "https://github.com/jcasinods"
+      }
+    ],
+    "date": "2021-03-14",
+    "categories": [
+      "portfolios",
+      "dygraphs"
+    ],
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-03-14T21:50:19+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2021-03-14-test-3/",
+    "title": "Test 3",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Joaquin Casino",
+        "url": "https://github.com/jcasinods"
+      }
+    ],
+    "date": "2021-03-14",
+    "categories": [
+      "portfolios",
+      "ggplot2"
+    ],
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-03-14T21:57:37+01:00",
     "input_file": {}
   }
 ]
