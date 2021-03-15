@@ -7,7 +7,7 @@ base_url: https://jcasinods.github.io/qqblog/
 output_dir: "docs"
 navbar:
   logo: 
-    image: images/logo.png
+    image: images/logo.jpeg
     href: https://github.com/jcasinods
   right:
     - text: "Analyses"

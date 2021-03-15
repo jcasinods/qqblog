@@ -2122,7 +2122,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   @import url('https://fonts.googleapis.com/css2?family=Raleway');
   /* This must remain at the top of this file.                 */
 
-
+  /*
+    Colour Palette:
+      dark-grey:       #222324
+  */
 
   html {
     /*-- Main font sizes --*/
@@ -2144,12 +2147,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --navbar-font:     'Raleway', sans-serif;  /* websites + blogs only */
   }
 
+  /*-- ARTICLE TITLE --*/
+  d-title {
+    background-color: white;
+  }
+
   /*-- ARTICLE METADATA --*/
   d-byline {
-    --heading-size:    0.6rem;
-    --heading-color:   rgba(0, 0, 0, 0.5);
-    --body-size:       0.8rem;
+    --heading-size:    0.8rem;
+    --heading-color:   rgba(0, 0, 0, 0.6);
+    --body-size:       1.0rem;
     --body-color:      rgba(0, 0, 0, 0.8);
+    background-color: #F6F6F6;
   }
 
   /*-- ARTICLE TABLE OF CONTENTS --*/
@@ -2174,14 +2183,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --text-color:       rgba(255, 255, 255, 0.8);
     --text-size:        15px;
     --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
+    --bkgd-color:       #222324;
   }
 
   .distill-site-footer {
     --text-color:       rgba(255, 255, 255, 0.8);
     --text-size:        15px;
     --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
+    --bkgd-color:       #222324;
   }
 
   /*-- Additional custom styles --*/
@@ -2371,7 +2380,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
 <a class="logo" href="https://github.com/jcasinods">
-<img src="images/logo.png" alt="Logo"/>
+<img src="images/logo.jpeg" alt="Logo"/>
 </a>
 <a href="index.html" class="title">The qqblog</a>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>

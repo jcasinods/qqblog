@@ -12,7 +12,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway');
 /* This must remain at the top of this file.                 */
 
-
+/*
+  Colour Palette:
+    dark-grey:       #222324
+*/
 
 html {
   /*-- Main font sizes --*/
@@ -34,12 +37,18 @@ html {
   --navbar-font:     'Raleway', sans-serif;  /* websites + blogs only */
 }
 
+/*-- ARTICLE TITLE --*/
+d-title {
+  background-color: white;
+}
+
 /*-- ARTICLE METADATA --*/
 d-byline {
-  --heading-size:    0.6rem;
-  --heading-color:   rgba(0, 0, 0, 0.5);
-  --body-size:       0.8rem;
+  --heading-size:    0.8rem;
+  --heading-color:   rgba(0, 0, 0, 0.6);
+  --body-size:       1.0rem;
   --body-color:      rgba(0, 0, 0, 0.8);
+  background-color: #F6F6F6;
 }
 
 /*-- ARTICLE TABLE OF CONTENTS --*/
@@ -64,14 +73,14 @@ d-appendix {
   --text-color:       rgba(255, 255, 255, 0.8);
   --text-size:        15px;
   --hover-color:      white;
-  --bkgd-color:       #0F2E3D;
+  --bkgd-color:       #222324;
 }
 
 .distill-site-footer {
   --text-color:       rgba(255, 255, 255, 0.8);
   --text-size:        15px;
   --hover-color:      white;
-  --bkgd-color:       #0F2E3D;
+  --bkgd-color:       #222324;
 }
 
 /*-- Additional custom styles --*/
