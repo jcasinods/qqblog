@@ -1,11 +1,12 @@
-name: "qqblog"
-title: "The qqblog"
+name: "My Blog"
+title: "JOAQUIN CASINO"
 theme: theme.css
 description: |
   This is my personal blog about Data Science 
 base_url: https://jcasinods.github.io/qqblog/
 output_dir: "docs"
 navbar:
+  search: false
   logo: 
     image: images/logo.jpeg
     href: https://github.com/jcasinods
@@ -16,7 +17,7 @@ navbar:
       href: gallery.html
     - text: "Home"
       href: index.html
-    - text: "About"
+    - text: "About me"
       href: about.html
     - icon: fab fa-github
       href: https://github.com/jcasinods
@@ -32,4 +33,7 @@ collections:
     categories: true
 rss:
   full_content: true
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    includes:
+        in_header: assets/banner.html

@@ -10,6 +10,7 @@
 
 /* Optional: embed custom fonts here with `@import`          */
 @import url('https://fonts.googleapis.com/css2?family=Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Iceland');
 /* This must remain at the top of this file.                 */
 
 /*
@@ -34,12 +35,13 @@ html {
   --heading-font:    'Raleway', sans-serif;
   --mono-font:       monospace;
   --body-font:       'Raleway', sans-serif;
-  --navbar-font:     'Raleway', sans-serif;  /* websites + blogs only */
+  --navbar-font:     'Iceland', sans-serif;  /* websites + blogs only */
 }
 
 /*-- ARTICLE TITLE --*/
 d-title {
-  background-color: white;
+  background-color: #0d042c;
+  color: #ffffffc2;
 }
 
 /*-- ARTICLE METADATA --*/
@@ -69,11 +71,13 @@ d-appendix {
 /* These properties only apply to Distill sites and blogs  */
 
 .distill-site-header {
-  --title-size:       18px;
+  --title-size:       25px;
   --text-color:       rgba(255, 255, 255, 0.8);
-  --text-size:        15px;
+  --text-size:        25px;
   --hover-color:      white;
-  --bkgd-color:       #222324;
+  --bkgd-color:       #0000009c;
+  padding-left:       1%;
+  padding-right:      1%;
 }
 
 .distill-site-footer {
@@ -86,3 +90,57 @@ d-appendix {
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
 
+d-article {
+  padding-left: 5%;
+}
+
+d-title h1 {
+  color: white !important;
+}
+
+d-article h1 {
+  color: #000000;
+  font-size: 7vh;
+  text-align: center;
+  font-family: 'Iceland';
+  position: relative;
+}
+
+
+/*-- Banner -- */
+.article-banner {
+  width: 100%;
+  height: auto;
+  border: 0;
+  margin-bottom: -1%;
+}
+
+.article-header {
+  display: flex;
+}
+
+img[src="assets/banner.png"] {
+  border: 0;
+  padding: 0;
+  width: 100%;
+  margin: 100px 25px 0px 0px;
+}
+
+body {
+  padding-top: 0px;
+}
+
+/*-- Postcard --*/
+.min-vh-100 {
+    min-height: calc(90vh - 100px) !important;
+}
+
+/*-- TAGS --*/
+
+
+d-title .dt-tags .dt-tag {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: #363f69;
+}

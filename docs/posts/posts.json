@@ -1,8 +1,8 @@
 [
   {
     "path": "posts/2021-03-14-test-1/",
-    "title": "Test 1",
-    "description": "A short description of the post.",
+    "title": "A short article as a placeholder (In development)",
+    "description": "This is also a simple description to fullfill the space and see what a real\narticle would look like.",
     "author": [
       {
         "name": "Joaquin Casino",
@@ -14,15 +14,17 @@
       "portfolios",
       "dygraphs"
     ],
-    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-03-14T21:49:50+01:00",
-    "input_file": {}
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/2021-03-14-test-1/test-1_files/figure-html5/simple_plot-1.png",
+    "last_modified": "2021-03-21T15:49:12+01:00",
+    "input_file": {},
+    "preview_width": 1248,
+    "preview_height": 768
   },
   {
     "path": "posts/2021-03-14-test-2/",
-    "title": "Test 2",
-    "description": "A short description of the post.",
+    "title": "A short article as a placeholder. In development.",
+    "description": "This is also a simple description to fullfill the space and see what a real\narticle would look like.",
     "author": [
       {
         "name": "Joaquin Casino",
@@ -34,15 +36,17 @@
       "portfolios",
       "dygraphs"
     ],
-    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-03-14T21:50:19+01:00",
-    "input_file": {}
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/2021-03-14-test-2/test-2_files/figure-html5/simple_plot-1.png",
+    "last_modified": "2021-03-21T15:48:02+01:00",
+    "input_file": {},
+    "preview_width": 1248,
+    "preview_height": 768
   },
   {
     "path": "posts/2021-03-14-test-3/",
-    "title": "Test 3",
-    "description": "A short description of the post.",
+    "title": "A short article as a placeholder. In development.",
+    "description": "This is also a simple description to fullfill the space and see what a real\narticle would look like.",
     "author": [
       {
         "name": "Joaquin Casino",
@@ -54,9 +58,11 @@
       "portfolios",
       "ggplot2"
     ],
-    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-03-14T21:57:37+01:00",
-    "input_file": {}
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\ndata <- data.table(\r\n  variable = LETTERS,\r\n  value    = seq(0, 1, 1 / length(LETTERS))[2:(length(LETTERS) + 1)]\r\n)\r\n\r\nggplot(data, aes(x = variable, y = value, fill = value)) +\r\n  geom_col(width = 1.2, position = \"identity\") +\r\n  coord_polar(theta = \"y\") +\r\n  theme_void() +\r\n  scale_fill_distiller(palette = \"GnBu\") +\r\n  guides(\r\n    fill = guide_colorsteps(barwidth = 10,\r\n                            barheight = 0.4,\r\n                            title = NULL,\r\n                            label = FALSE)\r\n  ) +\r\n  theme(\r\n    legend.position = \"bottom\"\r\n  )\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/2021-03-14-test-3/test-3_files/figure-html5/simple_plot-1.png",
+    "last_modified": "2021-03-21T16:09:57+01:00",
+    "input_file": {},
+    "preview_width": 1248,
+    "preview_height": 768
   }
 ]

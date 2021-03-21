@@ -1,7 +1,8 @@
 ---
-title: "Test 2"
+title: "A short article as a placeholder. In development."
 description: |
-  A short description of the post.
+  This is also a simple description to fullfill the space and see what a real
+  article would look like.
 categories:
   - portfolios
   - dygraphs
@@ -14,13 +15,35 @@ output:
     self_contained: false
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
+library(ggplot2)
+library(data.table)
 ```
 
 Distill is a publication format for scientific and technical writing, native to the web.
 
 Learn more about using Distill at <https://rstudio.github.io/distill>.
 
+```{r simple_plot, preview = TRUE}
+data <- data.table(
+  variable = LETTERS,
+  value    = seq(0, 1, 1 / length(LETTERS))[2:(length(LETTERS) + 1)]
+)
 
+ggplot(data, aes(x = variable, y = value, fill = value)) +
+  geom_col(width = 1.2, position = "identity") +
+  coord_polar(theta = "y") +
+  theme_void() +
+  scale_fill_distiller(palette = "YlOrRd") +
+  guides(
+    fill = guide_colorsteps(barwidth = 10,
+                            barheight = 0.4,
+                            title = NULL,
+                            label = FALSE)
+  ) +
+  theme(
+    legend.position = "bottom"
+  )
+```
