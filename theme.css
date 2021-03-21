@@ -132,7 +132,7 @@ body {
 
 /*-- Postcard --*/
 .min-vh-100 {
-    min-height: calc(90vh - 100px) !important;
+    min-height: calc(95vh - 100px) !important;
 }
 
 /*-- TAGS --*/
